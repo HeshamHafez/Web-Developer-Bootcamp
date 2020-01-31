@@ -1,0 +1,44 @@
+/*body{
+	border: 20px solid #bdc3c7;
+	padding: 2%;
+	margin: 2% 20% 2% 20%;
+	font-family: "Source Sans Pro";
+}*/
+
+body {
+	border: 20px solid #bdc3c7;
+	margin: 20px auto;
+	width: 80%;
+	padding: 20px;
+	max-width: 700px;
+	font-family: "Source Sans Pro";
+}
+
+.date{
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	margin-top: 0px;
+}
+
+h2 {
+	color: #2c3e50;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.first {
+	border-left: 5px solid #bdc3c7;
+	padding: 5px;
+}
+
+p{
+	font-weight: 400;
+}
+
+#Article {
+	border-bottom: 2px solid #f1f1f1;
+	margin-bottom: 20px;
+}
+

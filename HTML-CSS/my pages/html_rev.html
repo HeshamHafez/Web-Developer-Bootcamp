@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Revision</title>
+</head>
+<body>
+	<form>
+	<h1>Register</h1>
+	<div>
+		<label for="first">First Name:</label>
+		<input type="text" name="firstname" id="first" placeholder="Hesham" required>
+		<label for="last">Last Name:</label>
+		<input type="text" name="lastname" id="last" placeholder="Hafez" required>
+	</div>
+	<div>
+		<label for="male">Male</label>
+		<input type="radio" name="gender" id="male"	required value="male">
+		<label for="female">Female</label>
+		<input type="radio" name="gender" id="female" required value="female">
+		<label for="others">Others</label>
+		<input type="radio" name="gender" id="others" required value="others">
+	</div>
+	<div>
+		<label for="mail">Email:</label>
+		<input type="Email" name="email" id="mail" placeholder="ab@c.com" required>
+		<label for="password">Email:</label>
+		<input type="password" name="password" id="password" maxlength="10" minlength="5" placeholder="password" required>
+	</div>
+	<div>
+		<label for="brith">Brithday</label>
+		<select id="brith" name="Month" required>
+			<option value="" disabled>Month</option>
+			<option value="Jan">Jan</option>
+			<option value="Fab">Fab</option>
+			<option value="Mar">Mar</option>
+			<option value="May">May</option>
+		</select>
+		<select id="brith" name="day" required>
+			<option value="" disabled>Day</option>
+			<option value="01">01</option>
+			<option value="02">02</option>
+			<option value="03">03</option>
+			<option value="04">04</option>
+		</select>
+		<select id="brith" name="year" required>
+			<option value="" disabled>Year</option>
+			<option value="1994">1994</option>
+			<option value="1995">1995</option>
+			<option value="1996">1996</option>
+			<option value="1997">1997</option>
+		</select>
+	</div>
+	
+	<button>Submit</button>
+	</form>
+</body>
+</html>

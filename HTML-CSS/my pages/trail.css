@@ -1,0 +1,29 @@
+h1{
+	text-align: center;
+	font-size: 50px
+}
+
+table{
+	margin:auto;
+	text-align: center;
+}
+
+td{
+	width: 100px;
+	height: 100px;
+}
+
+td:hover {
+	border:1px solid gray;
+}
+
+.vert{
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.horz {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+
+}
